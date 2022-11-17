@@ -1,0 +1,17 @@
+Package: class.project
+Title: Functions for Paleobiology
+Version: 0.0.0.90
+Authors@R: 
+    person("April", "Wright", , "april.wright@selu.edu", role = c("aut", "cre"))
+Description: Contains functions for a variety of tasks associated with research problems in paleobiology.
+License: MIT + file LICENSE
+Depends:
+  R (>= 2.10)
+Imports:
+  phytools, tidyverse, ape, data.table, geiger
+Suggests:
+  knitr, rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1

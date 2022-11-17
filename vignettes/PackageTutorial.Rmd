@@ -1,0 +1,31 @@
+---
+title: "Package Tutorial"
+author: "April Wright"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# An Introduction to My R Package
+### A bit smaller
+
+My R package is very _**useful**_ and it does _three_ things. 
+We can go on to a new line.
+
+This shall be a new paragraph.
+
+```{r}
+sum(1, 4)
+```
+
+## Installation Instructions 
+
+```{r eval=FALSE, include=TRUE}
+install.packages("phytools")
+# But if you include text in a code chunk, it must be commented
+```
+
+We can include text anywhere in the document. 
+
+![Caption](path/to/image)
+
+It is possible to include [hyperlinks](wright-lab.org).
